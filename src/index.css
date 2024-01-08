@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-[Poppins];
+    @apply font-[chillax];
+  }
+  /* li {
+    @apply px-4;
+    @apply cursor-pointer;
+    @apply hover:text-red-300;
+  } */
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #faf6f0;
+}
