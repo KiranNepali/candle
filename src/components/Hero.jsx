@@ -6,8 +6,8 @@ import HeroImg4 from "../assets/img4.jpg";
 
 export const Hero = () => {
   return (
-    <div className="w-full h-full py-20">
-      <div className="flex justify-center items-center mx-auto w-full h-full gap-10  relative z-100 mt-10">
+    <div className="w-full h-full py-20 absolute z-20">
+      <div className="flex justify-center items-center mx-auto w-full h-full gap-10  relative z-50 mt-10">
         <div className="w-full h-full">
           <div
             style={{
